@@ -142,3 +142,26 @@ body{
     font-weight: 700;
     font-size: 18px;
 }
+/* what i do section style start here  */
+.what_i_do-section{
+    margin-bottom: 100px;
+}
+.what_i_do-description{
+    padding: 0 140px 30px;
+}
+.skills-container{
+    display: flex;
+    gap: 25px;
+}
+.skill{
+    border-radius: 5px;
+    padding: 30px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill img, .skill .skill-title{
+    margin-bottom: 20px;
+}
+.skill .skill-description{
+    color: hsla(0, 0%, 46%, 1);
+}
