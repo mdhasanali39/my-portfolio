@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+/* Usability  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/* button primary background color  */
+.btn-primary-bg{
+    background-color: hsla(25, 98%, 52%, 1);
+}
+/* navbar style Start  */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    margin: 0 200px;
+}
+.navbar .nav-items{
+    display: flex;
+    column-gap: 50px;
+    align-items: center;
+}
+.nav-items li{
+    list-style-type: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+.nav-items li a{
+    color: hsla(0, 0%, 28%, 1);
+    text-decoration: none;
+}
+/* logo Style Start  */
+.text-logo{
+    font-size: 40px;
+    user-select: none;
+}
+.text-logo span{
+    color: hsla(25, 98%, 52%, 1);
+}
+
+/* primay button style  */
+.btn-primary{
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
