@@ -14,6 +14,24 @@ body{
     background-color: hsla(25, 98%, 52%, 1);
 }
 
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.section-description{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+/* *************************************** */
+
 /* header some style here  */
 .header{
     background-color: #fff8f3;
@@ -21,6 +39,7 @@ body{
     background-repeat: no-repeat;
     background-position: bottom right;
     background-size: 700px;
+    margin-bottom: 130px;
 }
 /* navbar style Start  */
 .navbar{
@@ -28,7 +47,7 @@ body{
     justify-content: space-between;
     align-items: center;
     padding-top: 40px;
-    margin: 0 200px;
+    margin: 0 150px;
 }
 .navbar .nav-items{
     display: flex;
@@ -69,7 +88,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 30px 0 200px;
+    padding: 30px 30px 0 150px;
 }
 .banner-greeting{
     font-size: 27px;
@@ -94,4 +113,32 @@ body{
 .banner-content .contact-btn{
     outline: 1px solid hsla(25, 98%, 52%, 1);
     color: hsla(25, 98%, 52%, 1);
+}
+/* start styling main */
+#main{
+    max-width: 1053px;
+    margin: 0 auto;
+}
+/* about section start styling */
+.about-section{
+    background-color: hsla(25, 100%, 98%, 1);
+    padding: 140px;
+    margin-bottom: 100px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.about-name,.about-email, .about-dob, .about-location{
+    color: #757575;
+    line-height: 30px;
+}
+.about-name h5, .about-email h5,.about-dob h5, .about-location h5{
+    font-weight: 400;
+    font-size: 18px;
+}
+.about-name p, .about-email p,.about-dob p, .about-location p{
+    font-weight: 700;
+    font-size: 18px;
 }
