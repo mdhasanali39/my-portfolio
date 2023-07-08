@@ -17,10 +17,9 @@ body{
 /* header some style here  */
 .header{
     background-color: #fff8f3;
-    /* height: 100vh; */
     background-image: url('../images/header_bg.png');
     background-repeat: no-repeat;
-    background-position: bottom right, right;
+    background-position: bottom right;
     background-size: 700px;
 }
 /* navbar style Start  */
@@ -74,13 +73,17 @@ body{
 }
 .banner-greeting{
     font-size: 27px;
+    color: hsla(0, 0%, 28%, 1);
 }
 .banner-my_name{
     margin: 20px 0;
     font-size: 55px;
+    color: hsla(0, 0%, 10%, 1);
 }
 .banner-description{
     margin-bottom: 25px;
+    color: hsla(0, 0%, 46%, 1);
+    width: 56ch;
 }
 .banner .banner-my_picture{
     width: 500px;
