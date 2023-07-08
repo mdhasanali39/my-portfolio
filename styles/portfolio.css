@@ -13,6 +13,16 @@ body{
 .btn-primary-bg{
     background-color: hsla(25, 98%, 52%, 1);
 }
+
+/* header some style here  */
+.header{
+    background-color: #fff8f3;
+    /* height: 100vh; */
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, right;
+    background-size: 700px;
+}
 /* navbar style Start  */
 .navbar{
     display: flex;
@@ -53,4 +63,32 @@ body{
     border: none;
     padding: 15px 30px;
     border-radius: 5px;
+}
+
+/* banner section style start here  */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 30px 0 200px;
+}
+.banner-greeting{
+    font-size: 27px;
+}
+.banner-my_name{
+    margin: 20px 0;
+    font-size: 55px;
+}
+.banner-description{
+    margin-bottom: 25px;
+}
+.banner .banner-my_picture{
+    width: 500px;
+}
+.cv-download-btn{
+    margin-right: 20px;
+}
+.banner-content .contact-btn{
+    outline: 1px solid hsla(25, 98%, 52%, 1);
+    color: hsla(25, 98%, 52%, 1);
 }
